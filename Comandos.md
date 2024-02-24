@@ -46,3 +46,5 @@ Este comando ayuda a nombrar la rama main por defecto
 
 # Pasos para crear un commmit
 2.  Crear uan nueva version (Tomar la foto del código)
+* git commit -m "Escribir comentario de lo que se está agregando al commmit"
+(ANTES DE HACER UN COMMIT SE DEBE DE HACER UN ADD)
