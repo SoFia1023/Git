@@ -48,3 +48,31 @@ Este comando ayuda a nombrar la rama main por defecto
 2.  Crear uan nueva version (Tomar la foto del código)
 * git commit -m "Escribir comentario de lo que se está agregando al commmit"
 (ANTES DE HACER UN COMMIT SE DEBE DE HACER UN ADD)
+
+## Comando para listar las versiones de mi proyecto
+
+- git log 
+- git log --oneline
+
+## Comando para cambiar el nombre de las ramas 
+
+git branch -m "nombre antiguo" "nombre nuevo"
+
+## Comando para cambiar de versión
+
+- git checkout <Id del commit o nombre de la rama>
+- git switch   <Id del commit o nombre de la rama>
+
+##
+
+- git config --global core.autocrlf true ("Sirve para darle el caracter que necesita window para su salto de linea)
+
+## Comando para eliminar archivos desde git, se debe hacer commit cuando no se elimine correctamente
+
+- git rm --cached nombre_archivo  -> "Este cached tiene  como funcion de recargar el VS"
+- git rm nombre_archivo 
+
+## Comando para recuperar/descartar (cambios) archivos de un commit anterior o una eliminacion 
+
+- git restore nombre_archivo 
+- git restore --staged nombre_archivo ("Tiene como funcion para descartar los cambios que se hayan ido para el unstage <commit>")
