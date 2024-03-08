@@ -1,6 +1,6 @@
 git   config   --global  user.name   "Your name"
 -- Explicacion
-git: comando 
+config: comando 
 --global: Que se hara
 user.name: Especificacion 
 "Your name":Atributo
@@ -9,7 +9,7 @@ user.name: Especificacion
 * git --version
 
 # Configuración de git
-* git config --global user.name "My name"
+* git config --global user.name "My name" // nombre del que hizo el commit
 
 * git config --global user.email "My email"
 
