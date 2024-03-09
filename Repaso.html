@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio</title>
+</head>
+<body>
+
+    <h1>Galeria de fotos y sonidos</h1>
+    <section fotos></section>
+    <figure>
+        <img src="/img/1.png" alt="imagen 1">
+        <audio src="/Audio/Mari.mp3" controls></audio><br>
+        <img src="/img/2.jpeg" alt="imagen 2">
+        <audio src="/Audio/pingui.mp3" controls></audio><br>
+        <img src="/img/3.png" alt="imagen 3">
+        <audio src="/Audio/Cam.mp3" controls></audio><br>
+        <img src="/img/4.jpeg" alt="imagen 4"> 
+        <audio src="/Audio/ambu.mp3" controls  ></audio><br>
+        <img src="/img/5.jpg" alt="imagen 5">
+        <audio src="/Audio/canto.mp3" controls></audio><br><br><br>
+    </figure>
+ </section>
+
+    <h1>Video</h1>
+    <div videos>
+        <video src="/video/educar.mp4" controls ></video>
+    </div>
+
+    <h1>Mapa</h1>
+    <div Mapa>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63447.66023986479!2d-75.59414169226015!3d6.331963736374146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442fa6958e1777%3A0x837c07a666cf50f0!2sBello%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1702963539166!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe autoplay width="560" height="315" src="https://www.youtube.com/embed/Nhxdwo1Y2Zg?si=E5sZem5V96Q5ImEA"></iframe>
+    </div>
+
+    <h1>Tabla</h1>
+    <div>
+        <table>
+            <caption>Información</caption>
+            
+              <col span="1" style="background-color:red">
+              <col span="1" style="background-color:green">
+              <col span="1" style="background-color: aqua;">
+            <tr>
+              <th>Nombre</th>
+              <th>Foto</th> 
+              <th>Vídeo de animales</th>
+            </tr>
+            <tr>
+              <td>María</td>
+              <td><img src="/img/6.png" alt="imagen 6" width="100" height="100"></td>
+              <td><iframe width="100" height="100" src="https://www.youtube.com/embed/pnEHsUWFuNM?si=aDCisdgQBLEBnlWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <tr>
+          </table>
+    </div>
+
+    <h1>Formulario</h1>
+    <div>
+        <form>
+            <legend>Datos personales</legend><br>
+            <label for="Nombre">Nombre: </label>
+            <input id="Nombre "type="Nombre"><br><br>
+           
+            <label for="Género">Género: </label>
+            <select id="Género">
+                <optgroup label="Femenino">
+                    <option value="">Mujer</option>
+                </optgroup>
+                <optgroup label="Masculino">
+                    <option value="">Hombre</option>
+                </optgroup>
+            </select><br><br>
+
+            <label for="Color">Color: </label>
+            <input id="Color" list="Colores favoritos">
+            <datalist id="Colores favoritos">
+                    <option value="Negro">
+                    <option value="Morado">
+                    <option value="Azul">
+            </datalist><br></br>
+
+            <label for="Mensaje adicional">Mensaje adicional:</label>
+            <textarea name="Mensaje" id="Mensaje adicional" cols="30" rows="10"></textarea>
+
+        </form><br><br><br>
+
+        <footer>
+            <hr>
+            <p>Autor: Sofia Acosta</p>
+            <p>Cel: 374 231 89 50</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
