@@ -76,3 +76,16 @@ git branch -m "nombre antiguo" "nombre nuevo"
 
 - git restore nombre_archivo 
 - git restore --staged nombre_archivo ("Tiene como funcion para descartar los cambios que se hayan ido para el unstage <commit>")
+
+## REMOTA
+# Si te traers un repositorio mediante el enlace es asi:
+git clone enlace_del_repositorio
+
+# Añadir a repositorio
+git remote add origin URL_DEL_REPOSITORIO
+
+# Montar tus commits al repositorio
+git push origin nombre_de_la_rama
+
+# Traeer cambios del repositorio 
+git pull origin nombre_de_la_rama
