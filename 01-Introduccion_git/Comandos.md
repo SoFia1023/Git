@@ -84,7 +84,7 @@ git clone enlace_del_repositorio
 # Añadir a repositorio
 git remote add origin URL_DEL_REPOSITORIO
 
-# Montar tus commits al repositorio
+# Montar tus commits al repositorio (antes de hacer un push debes estar actualizado con un pull)
 git push origin nombre_de_la_rama
 
 # Traeer cambios del repositorio 
