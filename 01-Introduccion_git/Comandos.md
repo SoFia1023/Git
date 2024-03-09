@@ -89,3 +89,10 @@ git push origin nombre_de_la_rama
 
 # Traeer cambios del repositorio 
 git pull origin nombre_de_la_rama
+
+## Eliminar cosas
+git clone URL_DEL_REPOSITORIO
+cd NOMBRE_DEL_REPOSITORIO
+git rm -r NOMBRE_DE_LA_CARPETA
+git commit -m "Eliminando carpeta NOMBRE_DE_LA_CARPETA"
+git push origin NOMBRE_DE_LA_RAMA
