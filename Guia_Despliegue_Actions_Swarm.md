@@ -160,6 +160,27 @@ ENV PORT=4000
 EXPOSE 4000
 CMD ["node","src/server.js"]
 ```
+### C.4 `dockerignore`
+```dockerignore
+node_modules
+npm-debug.log
+.DS_Store
+.git
+.gitignore
+.env
+
+```
+
+### C.5 `.gitignore`
+```gitignore
+@"
+node_modules
+npm-debug.log
+.DS_Store
+.env
+.gitignore
+"@ | Out-File -Encoding utf8 ".gitignore"
+```
 
 > La API **no** debe depender de BD local para `/health`. El resto (login, etc.) se integrará luego con Spring/MySQL o RDS.
 
